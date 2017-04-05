@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+        <title>Valutac - Open edX Services Development</title>
+        <meta content="" name="description"/>
+        <meta content="" name="keywords"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta content="telephone=no" name="format-detection"/>
+        <meta name="HandheldFriendly" content="true"/>
+        <link rel="stylesheet" href="assets/css/master.css"/>
+        <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    </head>
+    <body>
+        <div class="b-page-wrap">
+
+            <!-- Loader-->
+            <div id="page-preloader"><div class="loader-wrap"><span class="loader02"></span></div></div>
+            <!-- Loader end-->
+
+            <!-- ==========================-->
+            <!-- SEARCH MODAL-->
+            <!-- ==========================-->
+            <div class="header-search open-search">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                            <div class="navbar-search">
+                                <form class="search-global">
+                                    <input type="text" placeholder="Type to search" autocomplete="off" name="s" value="" class="search-global__input"/>
+                                    <button class="search-global__btn"><i class="icon fa fa-search"></i></button>
+                                    <div class="search-global__note">Begin typing your search above and press return to search.</div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="search-close close"><i class="fa fa-times"></i></button>
+            </div>
+            <!-- ==========================-->
+            <!-- MOBILE MENU-->
+            <!-- ==========================-->
+            <div data-off-canvas="mobile-slidebar left overlay"><a href="index.html" class="navbar-brand scroll"><img class="logo-size" src="assets/media/general/logo-white.png" alt="logo" class="normal-logo"/>Valutac</a>
+                <ul class="nav navbar-nav">
+                    <!--<li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Services<b class="caret"></b>
+                        </a>
+                        <ul role="menu" class="dropdown-menu">
+                            <li><a href="service-1.html" tabindex="-1">Backend / API Services</a></li>
+                            <li><a href="service-2.html" tabindex="-1">Cloud Infrastructure</a></li>
+                            <li><a href="service-2.html" tabindex="-1">Mobile Development</a></li>
+                        </ul>
+                    </li>-->
+                    <li><a href="openedx.html">Open edX Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <!--<li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">About<b class="caret"></b>
+                       </a>
+                        <ul role="menu" class="dropdown-menu">
+                            <li><a href="about-1.html" tabindex="-1">About 01</a></li>
+                            <li><a href="about-2.html" tabindex="-1">About 02</a></li>
+                            <li><a href="about-me.html" tabindex="-1">About me</a></li>
+                        </ul>
+                    </li>-->
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+
+            <header class="header-transparent wow slideInDown">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-3">
+                            <div class="b-logo">
+                                <a href="index.html">
+                                    <img class="logo-size" src="assets/media/general/logo-white.png" alt="/">
+                                    <span class="logo-title">
+                                                                                        Valutac
+                                                                                    </span>
+                                </a>
+                            </div>
+                            <!-- Mobile Trigger Start-->
+                            <button class="menu-mobile-button visible-xs-block js-toggle-mobile-slidebar toggle-menu-button"><i class="toggle-menu-button-icon"><span></span><span></span><span></span><span></span><span></span><span></span></i></button>
+                            <!-- Mobile Trigger End-->
+                        </div>
+                        <div class="hidden-xs col-sm-9 col-md-7 col-lg-7">
+                            <div class="header-navibox-2">
+                                <nav id="nav" class="navbar">
+                                    <ul class="yamm main-menu nav navbar-nav hidden-xs">
+                                        <!--<li class="dropdown"><a href="javascript:void(0)" data-toggle="dropdown" class="dropdown-toggle">Services<b class="caret"></b>
+                                            </a>
+                                            <ul role="menu" class="dropdown-menu">
+                                                <li><a href="service-1.html" >Backend / Custom API</a></li>
+                                                <li><a href="service-2.html" >Cloud Infrastructure</a></li>
+                                                <li><a href="service-2.html" >Mobile Development</a></li>
+                                            </ul>
+                                        </li>-->
+                                        <li>
+                                            <a href="openedx.html">Open edX Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="about.html">About</a>
+                                        </li>
+                                        <!--<li class="dropdown"><a href="javascript:void(0)" data-toggle="dropdown" class="dropdown-toggle">About
+                                        </li>
+                                        <li class="dropdown"><a href="javascript:void(0)" data-toggle="dropdown" class="dropdown-toggle">Blog                                            
+                                        </li>-->
+                                        <li>
+                                            <a href="contacts.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+                            <div class="b-socials">
+                                <ul class="list-inline">
+                                    <li>
+                                        <a href="https://www.facebook.com/edxius">
+                                            <i class="fa fa-facebook fa-fw" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/ariestiyansyah">
+                                            <i class="fa fa-twitter fa-fw" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li class="search-toogle">
+                                        <a href="#" class="btn_header_search">
+                                            <i class="fa fa-search fa-fw" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="b-page-content with-layer-bg">
+                <!-- ==========================-->
+                <!-- PAGES BACKGROUND -->
+                <!-- ==========================-->
+                <div class="b-layer">
+                    <div class="layer-bg page-layer-bg5">
+                        <div class="layer-content">
+                            <div class="container wow slideInUp">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 text-center">
+                                        <!-- Breadcrumbs -->
+                                        <div class="b-breadcrumbs">
+                                            <ul class="list-inline">
+                                                <li>
+                                                    <a href="index.html">
+                                                        home
+                                                    </a>
+                                                </li>
+                                                <li class="current">
+                                                    Open edX Services
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h1 class="main-heading">
+                                            Open edX Services
+                                        </h1>
+                                        <div class="heading-text">
+                                            <p>
+                                                The Open edX platform is the leading open-source MOOC platform, created by edX and its founding partners, MIT and Harvard, with contributions from countless partner universities.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="b-layer-main">
+                    <div class="page-arrow">
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </div>
+                    <div class="b-service-page">
+                        <!-- Title services block -->
+                        <div class="b-title-service-mod wow fadeInUp">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-4 col-md-3">
+                                        <h3 class="big-title-mod">
+                                            Open edX Services
+                                        </h3>
+                                        <a href="contacts.html" class="btn btn-primary btn-ask">
+                                            <i class="fa fa-commenting" aria-hidden="true"></i>
+                                            Ask a Question
+                                        </a>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-8 col-md-4 col-md-offset-1">
+                                        <div class="b-text">
+                                            <p>
+                                                Open edX is an open source platform comes out of the box feature complete with a stable usable product. Often times our clients want to enhance the base version in a few ways;
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-offset-1">
+                                        <div class="b-links">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <p class="inline-title text-uppercase">
+                                                        We are the Best MOOC Provider
+                                                    </p>
+                                                </li>
+                                                <!--<li>
+                                                    <a href="#">
+                                                        Vestibulum urna velit, iaculis ac
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Proin mauris odio, feugiat sed
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Nam tempus vulputate lorem
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Nunc nec elementum arcu
+                                                    </a>
+                                                </li-->
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Services scroll slide -->
+                        <div class="b-scroll-slide">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12">
+                                        <h3 class="b-upper-title text-center">
+                                            Services
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Sly slider -->
+                            <div class="b-features-columns-holder">
+                                <div class="container">
+                                    <div class="row equal">
+                                        <div class="wave-bg"></div>
+                                        <div class="col-xs-6 col-sm-6 col-md-4 wow slideInLeft">
+                                            <div class="b-features-column">
+                                                <div class="features-column-icon">
+                                                    <i class="flaticon-tool-1"></i>
+                                                </div>
+                                                <h6 class="features-column-title">
+                                                    Customization
+                                                </h6>
+                                                <div class="features-column-text">
+                                                    <p>We can customize from upgrade base design elements, customization of themes to fit organization's branding to completely build new Open edX features.</p>
+                                                </div>
+                                                <!-- <a href="service-2.html" class="btn btn-primary">
+                                                    Detail
+                                                </a> -->
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-4 wow slideInLeft">
+                                            <div class="b-features-column">
+                                                <div class="features-column-icon">
+                                                    <i class="flaticon-people"></i>
+                                                </div>
+                                                <h6 class="features-column-title">
+                                                    Integration & Implement
+                                                </h6>
+                                                <div class="features-column-text">
+                                                    <p>Valutac has a full service that can integrate Open edX with 3rd party add-ons like Xblocks, external API, SCORM and Custom Learning Management System</p>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-4 wow slideInLeft">
+                                            <div class="b-features-column">
+                                                <div class="features-column-icon">
+                                                    <i class="flaticon-softtware-engineer"></i>
+                                                </div>
+                                                <h6 class="features-column-title">
+                                                    Ecommerce Integration
+                                                </h6>
+                                                <div class="features-column-text">
+                                                    <p>We are expert to build integration from Shopping Cart to custom ecommerce platform that support multiple payment system like Paypal, Credit Card, Debit Card</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-4 wow slideInRight">
+                                            <div class="b-features-column">
+                                                <div class="features-column-icon">
+                                                    <i class="flaticon-technology"></i>
+                                                </div>
+                                                <h6 class="features-column-title">
+                                                    Open edX Mobile
+                                                </h6>
+                                                <div class="features-column-text">
+                                                   Open edX comes out of the box with support multi-platform from web base to mobile application, we provide services for Open edX mobile API integration
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-4 wow slideInRight">
+                                            <div class="b-features-column">
+                                                <div class="features-column-icon">
+                                                    <i class="flaticon-tool"></i>
+                                                </div>
+                                                <h6 class="features-column-title">
+                                                    Training
+                                                </h6>
+                                                <div class="features-column-text">
+                                                    <p>We offer Open edX training for productions team to support instructor, administrators, teaching assistant and author to get the job done efficienly.</p>
+                                                </div>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-4 wow slideInRight">
+                                            <div class="b-features-column">
+                                                <div class="features-column-icon">
+                                                    <i class="flaticon-atom"></i>
+                                                </div>
+                                                <h6 class="features-column-title">
+                                                    Open edX Support
+                                                </h6>
+                                                <div class="features-column-text">
+                                                    <p>Most all of our projects have a support componenet. Our services range from basic on-going support all the way up to on-call developers being at our offices 24/7</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Ask block -->
+                        <div class="b-ask wow fadeIn">
+                            <div class="b-ask-content text-center">
+                                <h3 class="big-title-mod">
+                                    Interested?
+                                </h3>
+                                <div class="b-text">
+                                </div>
+                                <a href="contacts.html" class="btn btn-additional-mod">
+                                    Contact us
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="b-footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="b-socials">
+                                <ul class="list-inline">
+                                    <li>
+                                        <a href="https://www.facebook.com/edxius">
+                                            <i class="fa fa-facebook fa-fw" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/ariestiyansyah">
+                                            <i class="fa fa-twitter fa-fw" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <!--<li>
+                                        <a href="https://www.pinterest.com/">
+                                            <i class="fa fa-pinterest fa-fw" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://vk.com/">
+                                            <i class="fa fa-vk fa-fw" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.behance.net/">
+                                            <i class="fa fa-behance fa-fw" aria-hidden="true"></i>
+                                        </a>
+                                    </li>-->
+                                </ul>
+                            </div>
+                            <p class="copy">
+                                &copy; 2017 Futurico <sup>&reg;</sup> All Right Reserved
+                            </p>
+                            <a href="index-2.html" class="footer-logo">
+                                <img class="logo-size" src="assets/media/general/logo-footer.png" alt="/">
+                            </a>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-2">
+                            <div class="b-footer-box">
+                                <h5 class="footer-box-title">
+                                    Links
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="service-1.html">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Support</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Sign In</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-2">
+                            <div class="b-footer-box">
+                                <h5 class="footer-box-title">
+                                    About Us
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="about-1.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-single.html">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="contacts.html">Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="gallery-single.html">Gallery</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-2">
+                            <div class="b-footer-box">
+                                <h5 class="footer-box-title">
+                                    About Us
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">Privacy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Terms</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Patents</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-3 col-md-2">
+                            <div class="b-footer-box">
+                                <h5 class="footer-box-title">
+                                    Working Hours
+                                </h5>
+                                <p>
+                                    Monday-Friday:8am-8pm<br>Saturday 9am-1pm
+                                </p>
+                                <p class="footer-mail">
+                                    support@futurico.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- MAIN SCRIPTS-->
+        <script src="assets/libs/jquery-1.12.4.min.js"></script>
+        <script src="assets/libs/jquery-migrate-1.2.1.js"></script>
+        <!-- Bootstrap-->
+        <script src="assets/libs/bootstrap/bootstrap.min.js"></script>
+        <!-- Adaptive big text -->
+        <script src="assets/plugins/slabText/js/jquery.slabtext.min.js"></script>
+        <!-- Sliders -->
+        <!-- Owl slider -->
+        <script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+        <!-- Slick slider -->
+        <script src="assets/plugins/slick/slick.min.js"></script>
+        <!-- Sly slider -->
+        <script src="assets/plugins/slyslider/sly.min.js"></script>
+        <!-- Bx slider -->
+        <script src="assets/plugins/bxslider/vendor/jquery.easing.1.3.js"></script>
+        <script src="assets/plugins/bxslider/vendor/jquery.fitvids.js"></script>
+        <script src="assets/plugins/bxslider/jquery.bxslider.min.js"></script>
+        <!-- Pop-up window-->
+        <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <!-- Headers scripts-->
+        <script src="assets/plugins/headers/slidebar.js"></script>
+        <script src="assets/plugins/headers/header.js"></script>
+        <!-- Filter and sorting images-->
+        <script src="assets/plugins/isotope/isotope.pkgd.min.js"></script>
+        <script src="assets/plugins/isotope/imagesLoaded.js"></script>
+        <!-- Progress numbers-->
+        <script src="assets/plugins/rendro-easy-pie-chart/jquery.easypiechart.min.js"></script>
+        <script src="assets/plugins/rendro-easy-pie-chart/waypoints.min.js"></script>
+        <!-- Entry Animations -->
+        <script src="assets/plugins/wow.min.js"></script>
+        <!-- Calendar plugin -->
+        <script src="assets/plugins/pickmeup/pickmeup.js"></script>
+        <!-- User customization-->
+        <script src="assets/js/custom.js"></script>
+    </body>
+</html>
