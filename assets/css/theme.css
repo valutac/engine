@@ -1426,10 +1426,9 @@ textarea {
   position: relative;
   overflow: hidden;
 }
-
 .b-layer {
   position: relative;
-  height: 500px;
+  height: 700px;
 }
 
 .layer-bg {
