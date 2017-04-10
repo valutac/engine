@@ -1,0 +1,39 @@
+This zip file contains optimized resources for http://valutac.com/. The optimized resources are listed below in the format of: 
+filename: url
+
+Note: We only include up to 10 MB of optimized contents. If the
+optimized contents of your page are larger than 10 MB, we list them in
+this file too, with 'NOT INCLUDED' to indicate those URLs require
+further optimization.
+
+css/master.css: http://valutac.com/assets/css/master.css
+css/header.css: http://valutac.com/assets/plugins/headers/header.css
+css/yamm.css: http://valutac.com/assets/plugins/headers/yamm.css
+css/owl.carousel.css: http://valutac.com/assets/plugins/owl-carousel/assets/owl.carousel.css
+css/jquery.bxslider.css: http://valutac.com/assets/plugins/bxslider/jquery.bxslider.css
+css/magnific-popup.css: http://valutac.com/assets/plugins/magnific-popup/magnific-popup.css
+css/animate.css: http://valutac.com/assets/plugins/animate/animate.css
+css/color.css: http://valutac.com/assets/css/color.css
+css/theme.css: http://valutac.com/assets/css/theme.css
+css/responsive.css: http://valutac.com/assets/css/responsive.css
+js/jquery.easing.1.3.js: http://valutac.com/assets/plugins/bxslider/vendor/jquery.easing.1.3.js
+js/jquery.fitvids.js: http://valutac.com/assets/plugins/bxslider/vendor/jquery.fitvids.js
+js/slidebar.js: http://valutac.com/assets/plugins/headers/slidebar.js
+js/header.js: http://valutac.com/assets/plugins/headers/header.js
+js/pickmeup.js: http://valutac.com/assets/plugins/pickmeup/pickmeup.js
+js/custom.js: http://valutac.com/assets/js/custom.js
+js/custom-map.js: http://valutac.com/assets/js/custom-map.js
+js/jqBootstrapValidation.js: http://valutac.com/assets/plugins/jqBootstrapValidation.js
+js/contact_me.js: http://valutac.com/assets/plugins/contact_me.js
+image/logo-white.png: http://valutac.com/assets/media/general/logo-white.png
+image/review-author-1.jpg: http://valutac.com/assets/media/components/b-service/review-author-1.jpg
+image/review-author-2.jpg: http://valutac.com/assets/media/components/b-service/review-author-2.jpg
+image/review-author-3.jpg: http://valutac.com/assets/media/components/b-service/review-author-3.jpg
+image/client-1.jpg: http://valutac.com/assets/media/components/b-clients/client-1.jpg
+image/client-2.jpg: http://valutac.com/assets/media/components/b-clients/client-2.jpg
+image/client-3.jpg: http://valutac.com/assets/media/components/b-clients/client-3.jpg
+image/client-4.jpg: http://valutac.com/assets/media/components/b-clients/client-4.jpg
+image/client-5.jpg: http://valutac.com/assets/media/components/b-clients/client-5.jpg
+image/client-6.jpg: http://valutac.com/assets/media/components/b-clients/client-6.jpg
+image/logo-footer.png: http://valutac.com/assets/media/general/logo-footer.png
+image/step-arrow.png: http://valutac.com/assets/media/general/step-arrow.png
