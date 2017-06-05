@@ -163,11 +163,11 @@ blockquote{padding:0;border:none;}
 .b-regular-tabs .tabs-controls li a{display:block;background:transparent;padding:18px 15px;font-size:13px;text-transform:uppercase;font-weight:600;letter-spacing:1px;}
 .b-regular-tabs .tabs-controls .active{border-bottom:1px solid transparent;}
 .b-regular-tabs .tabs-controls .active a{background:#fff;color:#23272c;}
-.b-regular-tabs .tab-content{border-top:1px solid #e8ecef;background:#fff;padding-top:85px;font-size:18px;}
+.b-regular-tabs .tab-content{border-top:1px solid #e8ecef;background:#fff;padding-top:85px;padding-bottom:35px;font-size:18px;}
 .b-tab-list .row > [class*='col-']{border-right:1px dotted #e8ecef;}
 .b-tab-list .row > [class*='col-']:last-child{border:none;}
 .b-tab-list ul{margin-bottom:0;}
-.b-tab-list ul li{margin-bottom:34px;}
+.b-tab-list ul li{margin-bottom:5px;}
 .b-tab-list i{padding:2px;margin-right:8px;}
 .b-stars ul{margin:0;}
 .b-stars li{font-size:12px;padding:0;margin:0 1px;}
