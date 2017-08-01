@@ -250,7 +250,7 @@ textarea{resize:none;}
 .b-video .video-icon{display:inline-block;vertical-align:middle;margin:0 20px;width:100px;height:100px;border-radius:50%;color:#fff;font-size:36px;text-align:center;position:relative;-webkit-transition:opacity 0.3s ease-in-out;-moz-transition:opacity 0.3s ease-in-out;-ms-transition:opacity 0.3s ease-in-out;-o-transition:opacity 0.3s ease-in-out;transition:opacity 0.3s ease-in-out;}
 .b-video .video-icon i{position:absolute;top:50%;margin-top:-18px;left:0;right:0;margin-right:-7px;}
 .b-video .video-icon:hover{opacity:.85;}
-.b-reviews{display:flex;justify-content:center;align-items:center;flex-direction:column;height:400px;position:relative;background-size:cover;background-attachment:fixed;background-position:center;margin-bottom:102px;}
+.b-reviews{display:flex;justify-content:center;align-items:center;flex-direction:column;height:375px;position:relative;background-size:cover;background-attachment:fixed;background-position:center;margin-bottom:102px;}
 .b-reviews:before{content:'';display:block;position:absolute;left:0;top:0;width:100%;height:100%;background:rgba(0, 0, 0, 0.8);z-index:1;}
 .b-reviews:after{content:'';display:block;position:absolute;width:230px;height:230px;background:transparent;border-radius:50%;border:1px solid #fff;left:0;right:0;margin:0 auto;bottom:-115px;}
 .b-ask{display:flex;justify-content:center;align-items:center;flex-direction:row;height:auto;padding:6% 0;position:relative;background-size:cover;background-attachment:fixed;background-position:center;}
