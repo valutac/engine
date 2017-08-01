@@ -635,3 +635,5 @@ footer .b-socials{margin-bottom:15px;}
 .b-homepage-content-mod .b-progress-list{padding-top:50px;}
 .logo-size{height:35px;width:35px;}
 .circle-height{height: 75px; width: auto;}
+.separator {width: 100%;position: absolute;top: 0;left: 0;}
+.separator-brand{width:100%;position:absolute;top: 0;left:0}.separator-brand::after{clear:both;content:"";display:table}.separator-brand .line{display:block;float:left;border-top:3.5px solid #57cbcf;width:33.33333%}.separator-brand .line:nth-child(2){border-top-color:#00c8c8}
